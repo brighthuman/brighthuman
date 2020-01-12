@@ -1,0 +1,607 @@
+@font-face {
+    font-family: 'font';
+    src: url('Gunship_Cyrillic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    padding-top: 50px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    font-size: 55px;
+}
+
+p {
+    color: #fff;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+	font-family: font;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.irina {
+        padding-top: 250px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 1s;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-size: 45px;
+
+}
+
+a:hover {
+    -webkit-text-stroke: 2.8px #777;
+    -moz-text-stroke: 2.8px #777;
+    -o-text-stroke: 2.8px #777;
+    text-stroke: 2.8px #777;
+    text-decoration: underline;
+ }
+
+header {
+    background: url(imgs/header.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+
+.info-text {
+    font-size: 35px;
+    text-align: center;
+}
+
+
+
+.information {
+    background: url(imgs/information.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question1 {
+    background: url(imgs/cm1.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question2 {
+    background: url(imgs/cm2.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question3 {
+    background: url(imgs/cm3.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question4 {
+    background: url(imgs/cm4.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question5 {
+    background: url(imgs/cm5.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question6 {
+    background: url(imgs/d1.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question7 {
+    background: url(imgs/d2.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question8 {
+    background: url(imgs/f1.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question9 {
+    background: url(imgs/f2.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question10 {
+    background: url(imgs/i1.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question11 {
+    background: url(imgs/i2.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question12 {
+    background: url(imgs/k1.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question13 {
+    background: url(imgs/k2.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question14 {
+    background: url(imgs/m1.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question15 {
+    background: url(imgs/m2.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question16 {
+    background: url(imgs/sf1.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question17 {
+    background: url(imgs/sf2.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question18 {
+    background: url(imgs/sf3.jpg) no-repeat center center;
+    background-size:  cover;
+}
+.question19 {
+    background: url(imgs/virt.jpg) no-repeat center center;
+    background-size: cover;
+}
+.question20 {
+    background: url(imgs/p2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+input[type=checkbox]:checked~.list {
+    color: red;
+    padding-left: 35px;
+}
+
+.list {
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.list-0 {
+    padding-bottom: 30px;
+}
+
+.text-question {
+    text-align: right;
+}
+
+.list {
+    text-shadow: 0px 0px 5px #fff;
+    -webkit-text-stroke: 1px #777;
+    -moz-text-stroke: 1px #777;
+    -o-text-stroke: 1px #777;
+    text-stroke: 1px #777;
+    color: #000;
+    font-size: 30px;
+    transition: 0.3s;
+
+}
+
+ .text-question {
+    transition: 0.3s;
+    -webkit-text-stroke: 2.5px #777;
+    -moz-text-stroke: 2.5px #777;
+    -o-text-stroke: 2.5px #777;
+    text-stroke: 2.5px #777;
+    font-size: 35px;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.enter-button {
+    display: inline-block;
+    width: 100%;
+    font-family: font;
+    background: #C6C6C6;
+    border-style: groove;
+    cursor: pointer;
+    height: 55px;
+    font-size: 35px;
+}
+
+footer {
+    background: #95C498;
+    text-align: center;
+}
+
+.footer-text {
+        color: #00C498;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+
+.inlink {
+    background-size: cover;
+    width: 100%;
+}
+
+
+@media (min-width: 0px) and (max-width: 320px) {
+   
+    header {
+        height: 200px;
+        padding-top: 20px;
+        margin: 0;
+    }
+    h1 {
+        font-size: 18px;
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        transition: 1s;
+        margin: 0;
+        padding: 0;
+        display: block;
+        font-size: 15px;
+
+    }
+
+    .irina {
+        padding-top: 0px;
+    }
+
+    a:hover {
+        -webkit-text-stroke: 0.5px #777;
+        -moz-text-stroke: 0.5px #777;
+        -o-text-stroke: 0.5px #777;
+        text-stroke: 0.5px #777;
+        text-decoration: underline;
+    }
+
+    .links {
+        display: inline-block;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .information {
+        height: 150px;
+    }
+    .info-text {
+        font-size: 17px;
+        text-align: center;
+        color:  #fff;
+        padding-top: 20px;
+    }
+
+
+
+    .text-question {
+        padding-top: 15px;
+        font-size: 15px;
+    }
+
+    label {
+        padding-top: 16px;
+        cursor: pointer;
+    }
+
+    input[type=checkbox]:checked~.list {
+        padding-left: 20px;
+        transition: 0.3s;
+    }
+
+    .list  {
+        -webkit-text-stroke: 0.6px #777;
+        -moz-text-stroke: 0.6px #777;
+        -o-text-stroke: 0.6px #777;
+        text-stroke: 0.6px #777;
+        font-size: 15px;
+        padding-top: 12px;
+        padding-left: 10px;
+
+    }
+
+    .text-question {
+        -webkit-text-stroke: 1.5px #777;
+        -moz-text-stroke: 1.5px #777;
+        -o-text-stroke: 1.5px #777;
+        text-stroke: 1.5px #777;
+        text-align: right;
+    }
+
+    .list-0 {
+        padding-bottom: 10px;
+    }
+
+    .enter-button {
+    height: 30px;
+    font-size: 15px;
+}
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+    header {
+        height: 200px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    h1 {
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }
+    
+    .irina {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .kirill {
+        padding-left: 20px;
+    }
+
+    a {
+        display: block;
+        font-size: 20px;
+    }
+
+    a:hover {
+        -webkit-text-stroke: 1px #777;
+        -moz-text-stroke: 1px #777;
+        -o-text-stroke: 1px #777;
+        text-stroke: 1px #777;
+        text-decoration: underline;
+    }
+    
+    .info-text {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+
+    .text-question {
+        font-size: 15px;
+        text-align: right;
+         transition: 0.3s;
+        -webkit-text-stroke: 1px #777;
+        -moz-text-stroke: 1px #777;
+        -o-text-stroke: 1px #777;
+        text-stroke: 1px #777;
+    }
+
+     .list  {
+        -webkit-text-stroke: 1px #777;
+        -moz-text-stroke: 1px #777;
+        -o-text-stroke: 1px #777;
+        text-stroke: 1px #777;
+        font-size: 15px;
+        padding-top: 12px;
+        padding-left: 10px;
+    }
+
+    label {
+        padding-top: 16px;
+        cursor: pointer;
+    }
+
+    input[type=checkbox]:checked~.list {
+        padding-left: 20px;
+        transition: 0.3s;
+}
+        .list-0 {
+        padding-bottom: 10px;
+    }
+
+
+        .enter-button {
+    height: 30px;
+    font-size: 15px;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+   header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 250px;
+   } 
+
+   h1 {
+    font-size: 30px;
+    padding-top: 20px;
+    margin: 0;
+   }
+
+   .irina {
+    padding-top: 20px;
+   }
+
+    a {
+        display: block;
+        font-size: 25px;
+        padding-top: 10px;
+        padding-left: 15px;
+        font-size: 20px;
+    }
+
+    a:hover {
+        -webkit-text-stroke: 1.4px #777;
+        -moz-text-stroke: 1.4px #777;
+        -o-text-stroke: 1.4px #777;
+        text-stroke: 1.4px #777;
+        text-decoration: underline;
+    }
+    
+    .information {
+        width: 100%;
+        height: 180px;
+    }
+
+    .info-text {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 30px;
+    }
+
+
+    .text-question {
+        padding-top: 25px;
+        font-size: 20px;
+        text-align: right;
+        transition: 0.3s;
+        -webkit-text-stroke: 1.5px #777;
+        -moz-text-stroke: 1.5px #777;
+        -o-text-stroke: 1.5px #777;
+        text-stroke: 1.5px #777;
+    }
+
+    .list  {
+        -webkit-text-stroke: 1.5px #777;
+        -moz-text-stroke: 1.5px #777;
+        -o-text-stroke: 1.5px #777;
+        text-stroke: 1.5px #777;
+        font-size: 20px;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+
+    .list-0 {
+        padding-bottom: 25px;
+    }
+
+    label {
+        padding-top: 16px;
+        cursor: pointer;
+    }
+
+    input[type=checkbox]:checked~.list {
+        padding-left: 35px;
+        transition: 0.3s;
+    }
+
+    .enter-button {
+        font-size: 25px;
+        display: inline-block;
+        width: 100%;
+        font-family: font;
+        background: #C6C6C6;
+        border-style: groove;
+        cursor: pointer;
+        height: 45px;
+    }
+
+    .footer-text {
+        font-size: 20px;
+    }
+    
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+       header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 250px;
+   } 
+
+   h1 {
+    font-size: 30px;
+    padding-top: 20px;
+    margin: 0;
+   }
+
+    a {
+        display: block;
+        font-size: 25px;
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+
+    .irina {
+        padding-top: 15px;
+    }
+
+    a:hover {
+        -webkit-text-stroke: 1.4px #777;
+        -moz-text-stroke: 1.4px #777;
+        -o-text-stroke: 1.4px #777;
+        text-stroke: 1.4px #777;
+        text-decoration: underline;
+    }
+    
+    .information {
+        width: 100%;
+        height: 180px;
+    }
+
+    .info-text {
+        text-align: center;
+        padding-top: 15px;
+        font-size: 30px;
+    }
+
+
+    .text-question {
+        padding-top: 25px;
+        font-size: 20px;
+        text-align: right;
+        transition: 0.3s;
+        -webkit-text-stroke: 1.5px #777;
+        -moz-text-stroke: 1.5px #777;
+        -o-text-stroke: 1.5px #777;
+        text-stroke: 1.5px #777;
+    }
+
+    .list  {
+        -webkit-text-stroke: 1.5px #777;
+        -moz-text-stroke: 1.5px #777;
+        -o-text-stroke: 1.5px #777;
+        text-stroke: 1.5px #777;
+        font-size: 20px;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+
+    .list-0 {
+        padding-bottom: 25px;
+    }
+
+    label {
+        padding-top: 16px;
+        cursor: pointer;
+    }
+
+    input[type=checkbox]:checked~.list {
+        padding-left: 35px;
+        transition: 0.3s;
+    }
+
+    .enter-button {
+        font-size: 25px;
+        display: inline-block;
+        width: 100%;
+        font-family: font;
+        background: #C6C6C6;
+        border-style: groove;
+        cursor: pointer;
+        height: 45px;
+    }
+
+    .footer-text {
+        font-size: 20px;
+    }
+}
